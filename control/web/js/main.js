@@ -10,7 +10,7 @@ let mensaje=document.getElementById("mensaje");
 function callApi(estatus){
 
 // Make a request for a user with a given ID
-    axios.get('http://3.136.20.22/iot-car-control/back-end/apis/setRegistro.php?valorEstatus='+estatus)
+    axios.get('http://3.145.107.126/iot-car-control/back-end/apis/setRegistro.php?valorEstatus='+estatus)
     .then(function (response) {
         // handle success
         mensaje.innerHTML = "Respuesta: <strong>" + response.data + "<strong>";
