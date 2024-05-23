@@ -4,7 +4,7 @@ let respuesta = document.getElementById("respuesta");
 function callApiRequest() {
 
     // Make a request for a user with a given ID
-    axios.get('http://18.116.62.160/iot-car-control/back-end/apis/getRegistro.php')
+    axios.get('http://13.59.114.81/iot-car-control/back-end/apis/getRegistro.php')
         .then(function (response) {
             // handle success
             console.log(response);
